@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap');
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #87A6BB;
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+#lyrics {
+    font-size: 70px;
+    font-family: 'Mulish';
+    position: relative;
+    margin-left: 18vw;
+    margin-top: 30vh;
+    margin-right: 5vw;
+}
+
+#source {
+    font-size: 15px;
+    font-family: 'Space Mono';
+    position: relative;
+    margin-right: 5vw;
+    margin-top: 70vh;
+}
+
+.button {
+    position: absolute;
+    margin-top: 85vh;
+    margin-left: 90vw;
+}
+
+.generate {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: #2E364C;
+    font-style: bold;
+}
+
+.generate:hover{
+    font-style: italic;
+}
